@@ -4,9 +4,9 @@
 
 Si la couleur est #FF44BB, il faut ignorer le '#', les 2 premiers caractères correspondent au rouge, les deux suivants au vert et les deux derniers au bleu.
 
-Pour convertir de l’hexa vers le decimal, tu peux utiliser la méthode de conversion de base 16 suivante : Integer.parseInt(hexValue, 16);
+Pour convertir de l'hexa vers le decimal, tu peux utiliser la méthode de conversion de base 16 suivante : Integer.parseInt(hexValue, 16);
 
-Vérifier que le paramètre rentré correspond bien à une couleur en hexa (c’est à dire 6 caractères entre 0-9 et A-F, précédé par un #), retourner une Exception sinon.
+Vérifier que le paramètre rentré correspond bien à une couleur en hexa (c'est à dire 6 caractères précédé par un #), retourner null sinon.
 
 ### Exemples :
 
